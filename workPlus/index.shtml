@@ -23,9 +23,9 @@
 </head>
 
 <body>
-    <!--#include virtual="/svg/sprites/brands/global.shtml" -->
-    <!--#include virtual="/svg/sprites/icons/work_plus.shtml" -->
-    <img src="/images/work_plus/bg_body.svg" class="workPlus__section--bgImg p-absolute r-0 t-0" />
+    <!--#include virtual="../svg/sprites/brands/global.shtml" -->
+    <!--#include virtual="../svg/sprites/icons/work_plus.shtml" -->
+    <img src="../images/work_plus/bg_body.svg" class="workPlus__section--bgImg p-absolute r-0 t-0" />
     <div class="container">
         <div class="row pt-48 pb-48">
             <div class="col">

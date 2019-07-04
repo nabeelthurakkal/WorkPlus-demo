@@ -45,7 +45,7 @@
                         <title id="svgWorkplus">Work+</title>
                         <use xlink:href="#work_plus_logo" />
                     </svg> -->
-                    <img src="/images/work_plus/work_plus_logo.svg" alt="workplus" height="50" />
+                    <img src="../images/work_plus/work_plus_logo.svg" alt="workplus" height="50" />
                     <h2 class="fs-40 fw-700 c-black lh-title pt-32 animation-element">A better way to <br />
                         travel for work</h2>
                     <p class="fs-20 fw-500 c-gray lh-title pt-24">
@@ -98,13 +98,13 @@
         </div>
     </section>
     <section role="region" class="p-relative workPlus__section workPlus__section--fares">
-        <img src="/images/work_plus/flight_curved.svg" width="678px" class="workPlus__section--bgImg workPlus__section--bgImg__fares p-absolute l-0 b-0" />
+        <img src="../images/work_plus/flight_curved.svg" width="678px" class="workPlus__section--bgImg workPlus__section--bgImg__fares p-absolute l-0 b-0" />
         <div class="container">
             <div class="row flex-between flex-middle">
                 <div class="col-12 w-50p flex flex-center workPlus__img--lens__wrapper">
-                    <img class="workPlus__img--mob" src="/images/work_plus/mobile_image.png" height="525" width="262"
+                    <img class="workPlus__img--mob" src="../images/work_plus/mobile_image.png" height="525" width="262"
                         alt="mobile image" />
-                    <img class="workPlus__img--lens animation-element punch" src="/images/work_plus/lens.png" alt="lens" height="225" />
+                    <img class="workPlus__img--lens animation-element punch" src="../images/work_plus/lens.png" alt="lens" height="225" />
                 </div>
                 <div class="col-12 animation-element slideInUp" style="padding-left: 100px;">
                     <h2 class="fs-40 fw-700 c-black lh-title animation-element">Unlock unlimited Work<sup class="fw-700">+</sup>
@@ -119,7 +119,7 @@
         </div>
     </section>
     <section role="region" class="workPlus__section workPlus__section--inclusions p-relative">
-        <img src="/images/work_plus/quotes.svg" class="workPlus__section--bgImg workPlus__section--bgImg__inclusions p-absolute r-0" />
+        <img src="../images/work_plus/quotes.svg" class="workPlus__section--bgImg workPlus__section--bgImg__inclusions p-absolute r-0" />
         <div class="container">
             <div class="row flex-between flex-middle">
                 <div class="col-12 animation-element slideInUp">
@@ -131,9 +131,9 @@
                     <hr class="bg-light-yellow workplus__hr animation-element animatedWidth" />
                 </div>
                 <div class="col-12 w-50p flex flex-left flex-bottom workPlus__inc--card__wrapper">
-                    <img class="workPlus__inc--card animation-element diagonal-right" src="/images/work_plus/fare_card_withinc.svg" height="237"
+                    <img class="workPlus__inc--card animation-element diagonal-right" src="../images/work_plus/fare_card_withinc.svg" height="237"
                         width="280" alt="inclusions card" />
-                    <img class="workPlus__inc--cardNill animation-element diagonal-left" src="/images/work_plus/fara_card_withoutinc.svg" height="237"
+                    <img class="workPlus__inc--cardNill animation-element diagonal-left" src="../images/work_plus/fara_card_withoutinc.svg" height="237"
                         width="280" alt="inclusions card nill" />
                 </div>
             </div>
@@ -145,7 +145,7 @@
                 <div class="col w-100p  flex flex-column flex-middle flex-center animation-element slideInUp">
                     <div class="flex flex-middle" style="padding-left: 120px">
                         <h2 class="fs-40 fw-700 c-black lh-title pr-20">Add-ons</h2>
-                        <img src="/images/work_plus/workplus_badge.png" alt="badge work+" class="animation-element punch" width="80" height="80" />
+                        <img src="../images/work_plus/workplus_badge.png" alt="badge work+" class="animation-element punch" width="80" height="80" />
                     </div>
                     <p class="fs-20 fw-500 c-gray lh-title ta-c">
                         Work+ comes with additional features, <br />Become a member and avail these.
@@ -154,7 +154,7 @@
             </div>
             <div class="row pt-68 flex-around">
                 <div class="col-8 flex flex-middle flex-column">
-                    <img src="/images/work_plus/cashback.svg" alt="cashback icon" height="120" width="120" />
+                    <img src="../images/work_plus/cashback.svg" alt="cashback icon" height="120" width="120" />
                     <p class="fs-20 fw-600 lh-title ta-c c-black pt-48">
                         Upto ₹ 500 <br />
                         cashback
@@ -165,7 +165,7 @@
                     </p>
                 </div>
                 <div class="col-8 flex flex-middle flex-column">
-                    <img src="/images/work_plus/report.svg" alt="cashback icon" height="120" width="120" />
+                    <img src="../images/work_plus/report.svg" alt="cashback icon" height="120" width="120" />
                     <p class="fs-20 fw-600 lh-title ta-c c-black pt-48">
                         Download <br />
                         travel reports
@@ -175,7 +175,7 @@
                     </p>
                 </div>
                 <div class="col-8 flex flex-middle flex-column">
-                    <img src="/images/work_plus/travel_offers.svg" alt="cashback icon" height="120" width="120" />
+                    <img src="../images/work_plus/travel_offers.svg" alt="cashback icon" height="120" width="120" />
                     <p class="fs-20 fw-600 lh-title ta-c c-black pt-48">
                         Exclusive <br />
                         travel offers

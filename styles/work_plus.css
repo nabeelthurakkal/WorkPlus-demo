@@ -1398,7 +1398,7 @@ html {
   width: 400px;
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.26);
   border-radius: 6px;
-  background: url(/images/work_plus/ticket.svg);
+  background: url(../images/work_plus/ticket.svg);
   background-repeat: no-repeat;
   background-position: -4px 50%;
   background-color: #fff;
@@ -1406,7 +1406,7 @@ html {
   z-index: 1;
 }
 .workPlus__section--box__shadow {
-  background-image: url(/images/work_plus/box_shadow.svg);
+  background-image: url(../images/work_plus/box_shadow.svg);
   position: absolute;
   height: 52px;
   width: 100%;
@@ -1437,7 +1437,7 @@ html {
 }
 .workPlus__section--addons::after {
   content: "";
-  background-image: url(/images/work_plus/traingle.svg);
+  background-image: url(../images/work_plus/traingle.svg);
   background-repeat: repeat;
   position: absolute;
   bottom: -10px;
@@ -1533,7 +1533,7 @@ html {
   z-index: 10;
 }
 .workPlus__popup--successBg {
-  background-image: url(/images/work_plus/flight_curved.svg);
+  background-image: url(../images/work_plus/flight_curved.svg);
   background-position: 0px 104%;
   background-size: 76%;
   background-repeat: no-repeat;
@@ -1552,7 +1552,7 @@ html {
   -moz-appearance: none;
        appearance: none;
   position: relative;
-  background-image: url(/images/work_plus/select_arrow.svg);
+  background-image: url(../images/work_plus/select_arrow.svg);
   background-repeat: no-repeat;
   background-position: 78% 50%;
   background-color: #fff;

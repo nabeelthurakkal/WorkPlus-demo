@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="294px" height="251px" viewBox="0 0 294 251" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Group 3 Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="4.54747351e-13" y="0" width="280" height="237" rx="15"></rect>
+        <filter x="-3.8%" y="-4.4%" width="107.5%" height="108.9%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.256146198 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="First-time-user" transform="translate(-1006.000000, -1610.000000)">
+            <g id="Group-3-Copy" transform="translate(1013.000000, 1617.000000)">
+                <g id="Group-10">
+                    <g id="Rectangle-6-Copy">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <rect stroke="#FFFFFF" stroke-width="1" stroke-linejoin="square" fill="#FFFFFF" fill-rule="evenodd" x="0.5" y="0.5" width="279" height="236" rx="15"></rect>
+                    </g>
+                    <circle id="circle" stroke="#999999" stroke-width="1.52538949" fill="#EDEDED" opacity="0.409853981" cx="233.779684" cy="45.7796844" r="15.7796844"></circle>
+                    <g id="Group-2" transform="translate(83.056232, 97.000000)" fill="#999999" font-family="SFUIText-Medium, SF UI Text" font-size="16.7792844" font-weight="400" letter-spacing="-0.23491">
+                        <g id="Group">
+                            <text id="No-amendments">
+                                <tspan x="0.943768216" y="16">No amendments</tspan>
+                            </text>
+                            <text id="Meal-charges-apply">
+                                <tspan x="0.943768216" y="53.85">Meal charges apply</tspan>
+                            </text>
+                            <text id="Full-Cancellation-Fe">
+                                <tspan x="0.943768216" y="92.7">Full Cancellation Fee </tspan>
+                            </text>
+                        </g>
+                    </g>
+                    <g id="Group-8" transform="translate(30.000000, 30.000000)" fill="#999999">
+                        <g id="Group-5">
+                            <g id="Group-14">
+                                <text id="Normal-fare" opacity="0.506370908" font-family="SFUIText-Regular, SF UI Text" font-size="10.6079994" font-weight="normal" letter-spacing="-0.339455976">
+                                    <tspan x="1.25839998" y="10">NORMAL FARE</tspan>
+                                </text>
+                                <text id="₹4,330" font-family="SFUIText-Semibold, SF UI Text" font-size="21.8551987" font-weight="500" letter-spacing="-0.493670473">
+                                    <tspan x="0.494602903" y="33.2399993">₹4,330</tspan>
+                                </text>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

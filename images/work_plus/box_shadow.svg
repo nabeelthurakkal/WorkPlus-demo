@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="404px" height="54px" viewBox="0 0 404 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Path 10 Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-2.3%" y="-22.5%" width="104.6%" height="145.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="3" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="First-time-user" transform="translate(-839.000000, -533.000000)" fill="#BABABA">
+            <path d="M846,540 L846,580 C932.000306,573.333333 998.159357,570 1044.47715,570 C1113.95385,570 1176.9365,575.891883 1236,580 L1236,540 L846,540 Z" id="Path-10-Copy" filter="url(#filter-1)"></path>
+        </g>
+    </g>
+</svg>

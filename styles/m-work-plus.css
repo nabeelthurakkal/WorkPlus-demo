@@ -1,0 +1,1611 @@
+/* Koala compatibility not required */
+/* Reset.less
+ * Props to Eric Meyer (meyerweb.com) for his CSS reset file. We're using an adapted version here that cuts out some of the reset HTML elements we will never need here (i.e., dfn, samp, etc).
+ * ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+@import '../reset.css';
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+q,
+s,
+samp,
+small,
+strike,
+sub,
+sup,
+tt,
+var,
+dd,
+dl,
+dt,
+li,
+ol,
+ul,
+fieldset,
+form,
+label,
+legend,
+button,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 100%;
+  line-height: 1;
+  font-family: inherit;
+}
+strong {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-style: normal;
+  font-size: 100%;
+  line-height: 1;
+  font-family: inherit;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+ol,
+ul {
+  list-style: none;
+}
+q:before,
+q:after,
+blockquote:before,
+blockquote:after {
+  content: "";
+}
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+.addScroll {
+  overflow-y: scroll;
+}
+a:focus {
+  outline: thin dotted;
+}
+a:hover,
+a:active {
+  outline: 0;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+  display: block;
+}
+audio,
+canvas,
+video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+audio:not([controls]) {
+  display: none;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+  *vertical-align: middle;
+}
+button,
+input {
+  line-height: normal;
+  *overflow: visible;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  cursor: pointer;
+  -webkit-appearance: button;
+}
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+/**
+ * 	Animate.css - http://daneden.me/animate
+    LICENSED UNDER THE  MIT LICENSE (MIT)
+
+ *  Please add all animations to this file.
+ *
+ * - Include the class and the keyframes together
+ * - Do not include vendor prefixes as it will be taken
+ *   care of by the build process
+ *
+ * [1] BounceInDown
+ * [2] Shake
+ * [3] Sway
+ * [4] SlideInUp
+ */
+.animated {
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-duration: 0.4s;
+          animation-duration: 0.4s;
+}
+/*------------------------------------------------------------*\
+ * [1] Bounce In Down
+\*------------------------------------------------------------*/
+.bounceInDown {
+  -webkit-animation-name: bounceInDown;
+          animation-name: bounceInDown;
+}
+@-webkit-keyframes bounceInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-2000px);
+            transform: translateY(-2000px);
+  }
+  60% {
+    opacity: 1;
+    -webkit-transform: translateY(30px);
+            transform: translateY(30px);
+  }
+  80% {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+@keyframes bounceInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-2000px);
+            transform: translateY(-2000px);
+  }
+  60% {
+    opacity: 1;
+    -webkit-transform: translateY(30px);
+            transform: translateY(30px);
+  }
+  80% {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+/*------------------------------------------------------------*\
+ * [2] Shake
+\*------------------------------------------------------------*/
+.shake {
+  -webkit-animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+          animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+}
+@-webkit-keyframes shake {
+  10%,
+  90% {
+    -webkit-transform: translate3d(-1px, 0, 0);
+            transform: translate3d(-1px, 0, 0);
+  }
+  20%,
+  80% {
+    -webkit-transform: translate3d(2px, 0, 0);
+            transform: translate3d(2px, 0, 0);
+  }
+  30%,
+  50%,
+  70% {
+    -webkit-transform: translate3d(-4px, 0, 0);
+            transform: translate3d(-4px, 0, 0);
+  }
+  40%,
+  60% {
+    -webkit-transform: translate3d(4px, 0, 0);
+            transform: translate3d(4px, 0, 0);
+  }
+}
+@keyframes shake {
+  10%,
+  90% {
+    -webkit-transform: translate3d(-1px, 0, 0);
+            transform: translate3d(-1px, 0, 0);
+  }
+  20%,
+  80% {
+    -webkit-transform: translate3d(2px, 0, 0);
+            transform: translate3d(2px, 0, 0);
+  }
+  30%,
+  50%,
+  70% {
+    -webkit-transform: translate3d(-4px, 0, 0);
+            transform: translate3d(-4px, 0, 0);
+  }
+  40%,
+  60% {
+    -webkit-transform: translate3d(4px, 0, 0);
+            transform: translate3d(4px, 0, 0);
+  }
+}
+/*------------------------------------------------------------*\
+ * [3] Sway
+\*------------------------------------------------------------*/
+.sway {
+  -webkit-animation: sway 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+          animation: sway 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+}
+@-webkit-keyframes sway {
+  0% {
+    -webkit-transform: scale(0.1);
+            transform: scale(0.1);
+    opacity: 0;
+  }
+  60% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes sway {
+  0% {
+    -webkit-transform: scale(0.1);
+            transform: scale(0.1);
+    opacity: 0;
+  }
+  60% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+/*------------------------------------------------------------*\
+ * [4] SlideInUp
+\*------------------------------------------------------------*/
+@-webkit-keyframes slideInUp {
+  from {
+    -webkit-transform: translate3d(0, 100%, 0);
+            transform: translate3d(0, 100%, 0);
+    visibility: visible;
+  }
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes slideInUp {
+  from {
+    -webkit-transform: translate3d(0, 100%, 0);
+            transform: translate3d(0, 100%, 0);
+    visibility: visible;
+  }
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+}
+.slideInUp {
+  -webkit-animation-name: slideInUp;
+          animation-name: slideInUp;
+}
+@-webkit-keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+            transform: translate3d(0, 100%, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+            transform: translate3d(0, 100%, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+          animation-name: fadeInUp;
+}
+/* Koala compatibility not required */
+/*-------------------- NEW SPRITING ---------------*/
+/* function to set background position at before,after level */
+/*
+  Position and layout
+ */
+.block {
+  display: block;
+}
+.inline-block {
+  display: inline-block;
+}
+.absolute {
+  position: absolute;
+}
+.relative {
+  position: relative;
+}
+.right-0 {
+  right: 0;
+}
+.top-0 {
+  top: 0;
+}
+.fRight {
+  float: right;
+}
+.fLeft {
+  float: left;
+}
+.tLeft {
+  text-align: left;
+}
+.tRight {
+  text-align: right;
+}
+.tCenter {
+  text-align: center;
+}
+.allCaps {
+  text-transform: uppercase;
+}
+.no-underline {
+  text-decoration: none;
+}
+.bold {
+  font-weight: bold;
+}
+/*
+  Clearing the floats
+ */
+.clearFix {
+  zoom: 1;
+}
+.clearFix:before,
+.clearFix:after {
+  content: "";
+  display: table;
+}
+.clearFix:after {
+  clear: both;
+}
+.clear {
+  clear: both;
+}
+br.clear {
+  line-height: 0;
+}
+/*
+  Display and general themeing
+ */
+.hide {
+  display: none !important;
+}
+.o-50 {
+  opacity: 0.5;
+}
+.o-10 {
+  opacity: 0.1;
+}
+.o-0 {
+  opacity: 0;
+}
+.c-positive {
+  color: #659b2b;
+}
+/*
+Unordered List styles
+ */
+.inline > li {
+  float: left;
+  margin-right: 10px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.inline > li:last-child {
+  margin-right: 0;
+}
+.dots li {
+  margin-right: 0.8em;
+  float: left;
+}
+.dots li:before {
+  content: " . ";
+  color: #999;
+  font-weight: bold;
+  position: relative;
+  left: -0.1em;
+  bottom: 0.2em;
+}
+.dots li:first-child:before {
+  content: "";
+  padding: 0;
+}
+.pipes li {
+  margin-right: 0.4em;
+  float: left;
+}
+.pipes li:before {
+  content: " | ";
+  color: #999;
+  position: relative;
+  left: -0.2em;
+}
+.pipes li:first-child:before {
+  content: "";
+  padding: 0;
+}
+/* for red links */
+a.negative {
+  color: #CC3333;
+}
+.relative {
+  position: relative;
+}
+.ir {
+  text-indent: -9000px;
+}
+.truncate {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  line-height: 1.25em;
+}
+/* disable page scroll added by Parvez to be applied on html/body tag */
+.disablePageScroll {
+  height: 100%;
+  overflow: hidden;
+}
+/* pre made blocks and boxes */
+.featured {
+  background-color: #e8f6ff;
+  border: 1px solid;
+  border-color: #ffffff rgba(255, 255, 255, 0.5) rgba(0, 0, 0, 0.1) rgba(255, 255, 255, 0.5);
+}
+/*
+Animation classes
+TODO: Move this to animation Partial
+ */
+.highlightMe {
+  -moz-animation: glow 1.3s 1 ease-in-out;
+  -webkit-animation: glow 1.3s 1 ease-in-out;
+  -o-animation: glow 1.3s 1 ease-in-out;
+  -ms-animation: glow 1.3s 1 ease-in-out;
+  animation: glow 1.3s 1 ease-in-out;
+}
+.highlightMeLonger {
+  -moz-animation: glow 6.4s 1 ease-in-out;
+  -webkit-animation: glow 6.4s 1 ease-in-out;
+  -o-animation: glow 6.4s 1 ease-in-out;
+  -ms-animation: glow 6.4s 1 ease-in-out;
+  animation: glow 6.4s 1 ease-in-out;
+}
+.boxFix {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+@-moz-keyframes glow {
+  0% {
+    background-color: transparent;
+  }
+  30%,
+  70% {
+    background-color: #fffbd7;
+  }
+  100% {
+    background-color: transparent;
+  }
+}
+@-webkit-keyframes glow {
+  0%,
+  40% {
+    background-color: #fffbd7;
+  }
+  100% {
+    background-color: transparent;
+  }
+}
+@-ms-keyframes glow {
+  0%,
+  40% {
+    background-color: #fffbd7;
+  }
+  100% {
+    background-color: transparent;
+  }
+}
+/*
+  Border bottom classes - solid, dotted and dashed
+ */
+.bb {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+.bb--dotted {
+  border-bottom-style: dotted;
+}
+.bb--dashed {
+  border-bottom-style: dashed;
+}
+.bb--faded {
+  border-bottom-color: #ddd;
+}
+/**
+ * LESS Mixin to generate helper spacing classes
+ * e.g., values ranging from 0 - 30
+ * t- top, b- bottom, l- left, r- right
+ * .mt30 { margin-top: 30px; }
+ */
+.mt-5 {
+  margin-top: -5px !important;
+}
+.mb-5 {
+  margin-bottom: -5px !important;
+}
+.ml-5 {
+  margin-left: -5px !important;
+}
+.mr-5 {
+  margin-right: -5px !important;
+}
+.mt-10 {
+  margin-top: -10px !important;
+}
+.mb-10 {
+  margin-bottom: -10px !important;
+}
+.ml-10 {
+  margin-left: -10px !important;
+}
+.mr-10 {
+  margin-right: -10px !important;
+}
+.mt-15 {
+  margin-top: -15px !important;
+}
+.mb-15 {
+  margin-bottom: -15px !important;
+}
+.ml-15 {
+  margin-left: -15px !important;
+}
+.mr-15 {
+  margin-right: -15px !important;
+}
+.mt-20 {
+  margin-top: -20px !important;
+}
+.mb-20 {
+  margin-bottom: -20px !important;
+}
+.ml-20 {
+  margin-left: -20px !important;
+}
+.mr-20 {
+  margin-right: -20px !important;
+}
+.mt0 {
+  margin-top: 0px !important;
+}
+.mb0 {
+  margin-bottom: 0px !important;
+}
+.ml0 {
+  margin-left: 0px !important;
+}
+.mr0 {
+  margin-right: 0px !important;
+}
+.mt5 {
+  margin-top: 5px !important;
+}
+.mb5 {
+  margin-bottom: 5px !important;
+}
+.ml5 {
+  margin-left: 5px !important;
+}
+.mr5 {
+  margin-right: 5px !important;
+}
+.mt8 {
+  margin-top: 8px !important;
+}
+.mb8 {
+  margin-bottom: 8px !important;
+}
+.ml8 {
+  margin-left: 8px !important;
+}
+.mr8 {
+  margin-right: 8px !important;
+}
+.mt10 {
+  margin-top: 10px !important;
+}
+.mb10 {
+  margin-bottom: 10px !important;
+}
+.ml10 {
+  margin-left: 10px !important;
+}
+.mr10 {
+  margin-right: 10px !important;
+}
+.mt15 {
+  margin-top: 15px !important;
+}
+.mb15 {
+  margin-bottom: 15px !important;
+}
+.ml15 {
+  margin-left: 15px !important;
+}
+.mr15 {
+  margin-right: 15px !important;
+}
+.mt20 {
+  margin-top: 20px !important;
+}
+.mb20 {
+  margin-bottom: 20px !important;
+}
+.ml20 {
+  margin-left: 20px !important;
+}
+.mr20 {
+  margin-right: 20px !important;
+}
+.mt25 {
+  margin-top: 25px !important;
+}
+.mb25 {
+  margin-bottom: 25px !important;
+}
+.ml25 {
+  margin-left: 25px !important;
+}
+.mr25 {
+  margin-right: 25px !important;
+}
+.mt30 {
+  margin-top: 30px !important;
+}
+.mb30 {
+  margin-bottom: 30px !important;
+}
+.ml30 {
+  margin-left: 30px !important;
+}
+.mr30 {
+  margin-right: 30px !important;
+}
+.mt40 {
+  margin-top: 40px !important;
+}
+.mb40 {
+  margin-bottom: 40px !important;
+}
+.ml40 {
+  margin-left: 40px !important;
+}
+.mr40 {
+  margin-right: 40px !important;
+}
+.pt-5 {
+  padding-top: -5px !important;
+}
+.pb-5 {
+  padding-bottom: -5px !important;
+}
+.pl-5 {
+  padding-left: -5px !important;
+}
+.pr-5 {
+  padding-right: -5px !important;
+}
+.pt-10 {
+  padding-top: -10px !important;
+}
+.pb-10 {
+  padding-bottom: -10px !important;
+}
+.pl-10 {
+  padding-left: -10px !important;
+}
+.pr-10 {
+  padding-right: -10px !important;
+}
+.pt-15 {
+  padding-top: -15px !important;
+}
+.pb-15 {
+  padding-bottom: -15px !important;
+}
+.pl-15 {
+  padding-left: -15px !important;
+}
+.pr-15 {
+  padding-right: -15px !important;
+}
+.pt-20 {
+  padding-top: -20px !important;
+}
+.pb-20 {
+  padding-bottom: -20px !important;
+}
+.pl-20 {
+  padding-left: -20px !important;
+}
+.pr-20 {
+  padding-right: -20px !important;
+}
+.pt0 {
+  padding-top: 0px !important;
+}
+.pb0 {
+  padding-bottom: 0px !important;
+}
+.pl0 {
+  padding-left: 0px !important;
+}
+.pr0 {
+  padding-right: 0px !important;
+}
+.pt5 {
+  padding-top: 5px !important;
+}
+.pb5 {
+  padding-bottom: 5px !important;
+}
+.pl5 {
+  padding-left: 5px !important;
+}
+.pr5 {
+  padding-right: 5px !important;
+}
+.pt8 {
+  padding-top: 8px !important;
+}
+.pb8 {
+  padding-bottom: 8px !important;
+}
+.pl8 {
+  padding-left: 8px !important;
+}
+.pr8 {
+  padding-right: 8px !important;
+}
+.pt10 {
+  padding-top: 10px !important;
+}
+.pb10 {
+  padding-bottom: 10px !important;
+}
+.pl10 {
+  padding-left: 10px !important;
+}
+.pr10 {
+  padding-right: 10px !important;
+}
+.pt15 {
+  padding-top: 15px !important;
+}
+.pb15 {
+  padding-bottom: 15px !important;
+}
+.pl15 {
+  padding-left: 15px !important;
+}
+.pr15 {
+  padding-right: 15px !important;
+}
+.pt20 {
+  padding-top: 20px !important;
+}
+.pb20 {
+  padding-bottom: 20px !important;
+}
+.pl20 {
+  padding-left: 20px !important;
+}
+.pr20 {
+  padding-right: 20px !important;
+}
+.pt25 {
+  padding-top: 25px !important;
+}
+.pb25 {
+  padding-bottom: 25px !important;
+}
+.pl25 {
+  padding-left: 25px !important;
+}
+.pr25 {
+  padding-right: 25px !important;
+}
+.pt30 {
+  padding-top: 30px !important;
+}
+.pb30 {
+  padding-bottom: 30px !important;
+}
+.pl30 {
+  padding-left: 30px !important;
+}
+.pr30 {
+  padding-right: 30px !important;
+}
+.pt40 {
+  padding-top: 40px !important;
+}
+.pb40 {
+  padding-bottom: 40px !important;
+}
+.pl40 {
+  padding-left: 40px !important;
+}
+.pr40 {
+  padding-right: 40px !important;
+}
+/*
+  Special case - kept for legacy purpose
+ */
+.pad {
+  padding: 15px;
+}
+/*
+  Disables select ability - Useful for links which on clicking gets selected
+ */
+.noselect {
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+/*
+  * Flags can be used as a resuable components to have layout like:
+
+  +---------+
+  |         | ~~~~ ~~~~~~~~~~~
+  |         | ~~~~~~~ ~~~~~ ~~
+  |         | ~~~~~~~~~~~~
+  +---------+
+
+  For deeper understanding - https://csswizardry.com/2013/05/the-flag-object/
+ */
+.flag {
+  display: table;
+  width: 100%;
+}
+.flag__image,
+.flag__body {
+  display: table-cell;
+  vertical-align: middle;
+}
+.flag--top .flag__image,
+.flag--top .flag__body {
+  vertical-align: top;
+}
+.flag--bottom .flag__image,
+.flag--bottom .flag__body {
+  vertical-align: bottom;
+}
+.flag__image {
+  padding-right: 10px;
+}
+.flag__image > img {
+  display: block;
+  max-width: none;
+}
+.flag--rev .flag__image {
+  padding-right: 0;
+  padding-left: 15px;
+}
+.flag__body {
+  width: 100%;
+}
+/*
+ * Utility based flex helpers
+ */
+.flex {
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.flex-inline {
+  display: -webkit-inline-flex;
+  display: -moz-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+/*
+ * Remove pseudo elements created by clearfix as precaution
+ */
+.flex::before,
+.flex::after,
+.flex-inline::before,
+.flex-inline::after {
+  display: none;
+}
+/*
+ * Align items along the main axis of the current line of the flex container
+ * Row: Horizontal
+ */
+.flex-left {
+  -webkit-justify-content: flex-start;
+     -moz-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+.flex-center {
+  -webkit-justify-content: center;
+     -moz-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.flex-right {
+  -webkit-justify-content: flex-end;
+     -moz-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+.flex-between {
+  -webkit-justify-content: space-between;
+     -moz-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.flex-around {
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+}
+/*
+ * Align items in the cross axis of the current line of the flex container
+ * Row: Vertical
+ */
+.flex-stretch {
+  -webkit-align-items: stretch;
+     -moz-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+.flex-top {
+  -webkit-align-items: flex-start;
+     -moz-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+.flex-middle {
+  -webkit-align-items: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.flex-bottom {
+  -webkit-align-items: flex-end;
+     -moz-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+/*
+ * Direction
+ */
+.flex-row {
+  -webkit-flex-direction: row;
+     -moz-box-orient: horizontal;
+     -moz-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.flex-row-reverse {
+  -webkit-flex-direction: row-reverse;
+     -moz-box-orient: horizontal;
+     -moz-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+.flex-column {
+  -webkit-flex-direction: column;
+     -moz-box-orient: vertical;
+     -moz-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.flex-column-reverse {
+  -webkit-flex-direction: column-reverse;
+     -moz-box-orient: vertical;
+     -moz-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+}
+/**
+  * Wrap
+  */
+.flex-nowrap {
+  -webkit-flex-wrap: nowrap;
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+}
+.flex-wrap {
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.flex-wrap-reverse {
+  -webkit-flex-wrap: wrap-reverse;
+      -ms-flex-wrap: wrap-reverse;
+          flex-wrap: wrap-reverse;
+}
+/*
+ * Aligns items within the flex container when there is extra space in the cross-axis
+ * Only works if there is more than one line of flex items
+ */
+.flex-wrap-stretch {
+  -webkit-align-content: stretch;
+      -ms-flex-line-pack: stretch;
+          align-content: stretch;
+}
+.flex-wrap-top {
+  -webkit-align-content: flex-start;
+      -ms-flex-line-pack: start;
+          align-content: flex-start;
+}
+.flex-wrap-middle {
+  -webkit-align-content: center;
+      -ms-flex-line-pack: center;
+          align-content: center;
+}
+.flex-wrap-bottom {
+  -webkit-align-content: flex-end;
+      -ms-flex-line-pack: end;
+          align-content: flex-end;
+}
+.flex-wrap-between {
+  -webkit-align-content: space-between;
+      -ms-flex-line-pack: justify;
+          align-content: space-between;
+}
+.flex-wrap-around {
+  -webkit-align-content: space-around;
+      -ms-flex-line-pack: distribute;
+          align-content: space-around;
+}
+/*
+ * Item Ordering
+ */
+.flex-first {
+  -webkit-order: -1;
+     -moz-box-ordinal-group: 0;
+      -ms-flex-order: -1;
+          order: -1;
+}
+.flex-last {
+  -webkit-order: 99;
+     -moz-box-ordinal-group: 100;
+      -ms-flex-order: 99;
+          order: 99;
+}
+/*
+ * No Flex: 0 0 auto
+ * Content dimensions
+ */
+.flex-none {
+  -webkit-flex: none;
+     -moz-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+}
+/*
+ * Relative Flex: 1 1 auto
+ * Space is allocated considering content
+ */
+.flex-auto {
+  -webkit-flex: auto;
+     -moz-box-flex: 1;
+      -ms-flex: auto;
+          flex: auto;
+}
+/*
+ * Absolute Flex: 1 1 0%
+ * Space is allocated solely based on flex
+ */
+.flex-1 {
+  -webkit-flex: 1;
+     -moz-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+/*================
+      COLOR
+==================*/
+.c-dark-gray {
+  color: #555;
+}
+.c-gray {
+  color: #777;
+}
+.c-light-gray {
+  color: #999;
+}
+.c-black {
+  color: #000;
+}
+.c-blue {
+  color: #36c;
+}
+.c-white {
+  color: #fff;
+}
+.c-red {
+  color: #CE3434;
+}
+.bg-blue {
+  background-color: #36c;
+}
+.bg-orange {
+  background-color: #F26822;
+}
+.bg-light-yellow {
+  background-color: #FFBD00;
+}
+.bg-light-gray {
+  background-color: #EFEFF4;
+}
+.bg-lighter-gray {
+  background-color: #f9f8fb;
+}
+.bg-white {
+  background-color: #FFFFFF;
+}
+/*================
+    TYPOGRAPHY
+==================*/
+.fs-8 {
+  font-size: 8px;
+}
+.fs-12 {
+  font-size: 12px;
+}
+.fs-13 {
+  font-size: 13px;
+}
+.fs-15 {
+  font-size: 15px;
+}
+.fs-16 {
+  font-size: 16px;
+}
+.fs-18 {
+  font-size: 18px;
+}
+.fs-20 {
+  font-size: 20px;
+}
+.fs-24 {
+  font-size: 24px;
+}
+.fs-28 {
+  font-size: 28px;
+}
+.fs-32 {
+  font-size: 32px;
+}
+.fs-36 {
+  font-size: 36px;
+}
+.fs-40 {
+  font-size: 40px;
+}
+.fs-48 {
+  font-size: 48px;
+}
+.fw-500 {
+  font-weight: 500;
+}
+.fw-600 {
+  font-weight: 600;
+}
+.fw-700 {
+  font-weight: 700;
+}
+.fw-800 {
+  font-weight: 800;
+}
+.lh-copy {
+  line-height: 1.5;
+}
+.lh-title {
+  line-height: 1.25;
+}
+.lh-solid {
+  line-height: 1;
+}
+.lh-none {
+  line-height: none;
+}
+.ta-c {
+  text-align: center;
+}
+.ta-l {
+  text-align: left;
+}
+.ta-r {
+  text-align: right;
+}
+/*================
+     SPACING
+==================*/
+.p-0 {
+  padding: 0;
+}
+.pt-4 {
+  padding-top: 4px;
+}
+.pt-8 {
+  padding-top: 8px;
+}
+.pt-12 {
+  padding-top: 12px;
+}
+.pt-16 {
+  padding-top: 16px;
+}
+.pt-20 {
+  padding-top: 20px;
+}
+.pt-24 {
+  padding-top: 24px;
+}
+.pt-32 {
+  padding-top: 32px;
+}
+.pt-40 {
+  padding-top: 40px;
+}
+.pt-44 {
+  padding-top: 44px;
+}
+.pt-48 {
+  padding-top: 48px;
+}
+.pt-68 {
+  padding-top: 68px;
+}
+.pb-4 {
+  padding-bottom: 4px;
+}
+.pb-8 {
+  padding-bottom: 8px;
+}
+.pb-12 {
+  padding-bottom: 12px;
+}
+.pb-16 {
+  padding-bottom: 16px;
+}
+.pb-20 {
+  padding-bottom: 20px;
+}
+.pb-24 {
+  padding-bottom: 24px;
+}
+.pb-28 {
+  padding-bottom: 28px;
+}
+.pb-32 {
+  padding-bottom: 32px;
+}
+.pb-44 {
+  padding-bottom: 44px;
+}
+.pb-48 {
+  padding-bottom: 48px;
+}
+.pl-4 {
+  padding-left: 4px;
+}
+.pl-8 {
+  padding-left: 8px;
+}
+.pl-12 {
+  padding-left: 12px;
+}
+.pl-16 {
+  padding-left: 16px;
+}
+.pl-20 {
+  padding-left: 20px;
+}
+.pl-24 {
+  padding-left: 24px;
+}
+.pl-32 {
+  padding-left: 32px;
+}
+.pl-44 {
+  padding-left: 44px;
+}
+.pl-48 {
+  padding-left: 48px;
+}
+.pr-4 {
+  padding-right: 4px;
+}
+.pr-8 {
+  padding-right: 8px;
+}
+.pr-12 {
+  padding-right: 12px;
+}
+.pr-16 {
+  padding-right: 16px;
+}
+.pr-20 {
+  padding-right: 20px;
+}
+.pr-24 {
+  padding-right: 24px;
+}
+.pr-32 {
+  padding-right: 32px;
+}
+.pr-44 {
+  padding-right: 44px;
+}
+.pr-48 {
+  padding-right: 48px;
+}
+/*================
+     DIMENSIONS
+==================*/
+.w-10p {
+  width: 10%;
+}
+.w-20p {
+  width: 20%;
+}
+.w-30p {
+  width: 30%;
+}
+.w-40p {
+  width: 40%;
+}
+.w-50p {
+  width: 50%;
+}
+.w-100p {
+  width: 100%;
+}
+.h-100p {
+  height: 100%;
+}
+/*================
+       UTILS
+==================*/
+.bs-border {
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+}
+.p-sticky {
+  position: -webkit-sticky;
+  position: sticky;
+}
+.p-absolute {
+  position: absolute;
+}
+.p-relative {
+  position: relative;
+}
+.p-fixed {
+  position: fixed;
+}
+.t-0 {
+  top: 0;
+}
+.b-0 {
+  bottom: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fff;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+  width: 100%;
+}
+.workPlus__section--landing {
+  background-image: url(/images/work_plus/mobile/ticket.png);
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-size: contain;
+}
+.workPlus__section--separator hr {
+  border: 0.5px solid #E4E4EA;
+}
+.workPlus__section--addons {
+  background-image: linear-gradient(to top, rgba(244, 243, 245, 0.56), #fff);
+  background-repeat: no-repeat;
+  position: relative;
+}
+.workPlus__section--addons::after {
+  content: "";
+  background-image: url(/images/work_plus/traingle.svg);
+  background-repeat: repeat;
+  position: absolute;
+  bottom: -10px;
+  height: 24px;
+  width: 100%;
+  -webkit-transform: rotate(-180deg);
+  -ms-transform: rotate(-180deg);
+  transform: rotate(-180deg);
+  left: 0;
+}
+.workPlus__section--success {
+  width: 100%;
+  position: absolute;
+  top: calc(50% - 80px);
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.workPlus__button {
+  line-height: 1.5;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  padding: 12px 16px;
+  border-radius: 5px;
+  white-space: nowrap;
+  position: relative;
+}
+.workPlus__button--wrapper {
+  overflow: hidden;
+  background-color: #fff;
+  border-top: 0.5px solid #E4E4EA;
+}
+.workPlus__form--inputLabel {
+  min-width: 104px;
+}
+.workPlus__form--inputGroup {
+  min-height: 44px;
+  border-bottom: 1px solid #D8D8D8;
+}
+.workPlus__form--input {
+  outline: none;
+  border: none;
+}
+.workPlus__form--input__disabled {
+  color: #999;
+}
+.workPlus__form--select {
+  outline: none;
+  border: none;
+  -moz-appearance: none;
+       appearance: none;
+  -webkit-appearance: none;
+}
+.workPlus__form--sectionTitle,
+.workPlus__form--sectionError {
+  border-bottom: 1px solid #D8D8D8;
+}

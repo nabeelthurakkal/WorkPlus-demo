@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="288px" height="507px" viewBox="0 0 288 507" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Path 26 Copy 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="8.89726732%" y1="116.180162%" x2="92.6425035%" y2="14.4245256%" id="linearGradient-1">
+            <stop stop-color="#EFEFF4" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-0.0%" y="0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.986979167">
+        <g id="First-time-user" transform="translate(-1152.000000, -1573.000000)" fill="url(#linearGradient-1)">
+            <path d="M1428.72891,1591.88814 C1460.65481,1807.81359 1401.9739,1941.02581 1252.68617,1991.52479 C1103.39845,2042.02377 1103.39845,2069.417 1252.68617,2073.70448 C1458.98757,2046.8402 1575.54364,1953.49831 1602.35437,1793.67882 C1629.1651,1633.85932 1571.28995,1566.59576 1428.72891,1591.88814 Z" id="Combined-Shape-Copy-3" filter="url(#filter-2)" transform="translate(1374.720383, 1830.204482) scale(-1, 1) rotate(-7.000000) translate(-1374.720383, -1830.204482) "></path>
+        </g>
+    </g>
+</svg>

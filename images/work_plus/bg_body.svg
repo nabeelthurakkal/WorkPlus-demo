@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="484px" height="384px" viewBox="0 0 484 384" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="5.49211955%" y1="82.4282792%" x2="96.1752132%" y2="32.5680175%" id="linearGradient-1">
+            <stop stop-color="#EFEFF4" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-0.0%" y="-0.0%" width="96.7%" height="107.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.986979167">
+        <g id="First-time-user" transform="translate(-956.000000, 0.000000)" fill="url(#linearGradient-1)">
+            <path d="M1218.76113,-205.738942 C1361.32217,-231.031317 1419.19732,-163.767758 1392.38659,-3.94826483 C1365.57586,155.871228 1249.01979,249.213117 1042.71839,276.077402 C893.430673,271.789924 893.430673,244.396693 1042.71839,193.89771 C1192.00612,143.398728 1250.68703,10.1865103 1218.76113,-205.738942 Z M1514.70424,-98.1101621 C1657.26527,-123.402537 1715.14043,-56.1389784 1688.3297,103.680515 C1661.51896,263.500008 1544.9629,356.841897 1338.6615,383.706181 C1189.37378,379.418703 1189.37378,352.025473 1338.6615,301.52649 C1487.94922,251.027507 1546.63013,117.81529 1514.70424,-98.1101621 Z" id="Combined-Shape" filter="url(#filter-2)" transform="translate(1325.752603, 65.577402) rotate(-7.000000) translate(-1325.752603, -65.577402) "></path>
+        </g>
+    </g>
+</svg>

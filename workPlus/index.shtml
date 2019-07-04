@@ -1,0 +1,273 @@
+<html lang="en" class="nonIE serveDesktop">
+<!--[if IE 7]><html class="ie ie7 ltie9 ltie8 ltie10 serveDesktop" lang="en"> <![endif]-->
+<!--[if IE 8]><html class="ie ie8 ltie9 ltie10 serveDesktop" lang="en"> <![endif]-->
+<!--[if IE 9]><html class="ie ie9 ltie10 serveDesktop" lang="en"> <![endif]-->
+<!--[if IE 10]><html class="ie ie10 serveDesktop"><![endif]-->
+<!--[if !IE]><!-->
+<!--<![endif]-->
+
+<head>
+    <!--  in  -->
+    <title>Cleartrip Work+</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+
+    <meta property="og:title" content="Cleartrip WorkPlus">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:url" content="http://www.cleartrip.com/WorkPlus">
+    <meta property="og:site_name" content="Cleartrip">
+
+    <link type="text/css" rel="stylesheet" href="../styles/work_plus.css">
+    <script src="//code.jquery.com/jquery-1.7.1.min.js"></script>
+    <!-- <script src="//ui.cltpstatic.com/landing-page-resources/rewards/js/bjqs-1.3.min.js"></script> -->
+</head>
+
+<body>
+    <!--#include virtual="/svg/sprites/brands/global.shtml" -->
+    <!--#include virtual="/svg/sprites/icons/work_plus.shtml" -->
+    <img src="/images/work_plus/bg_body.svg" class="workPlus__section--bgImg p-absolute r-0 t-0" />
+    <div class="container">
+        <div class="row pt-48 pb-48">
+            <div class="col">
+                <svg aria-labelledby="svgCleartrip" role="img" width="140" height="30">
+                    <title id="svgCleartrip">Cleartrip Home</title>
+                    <use xlink:href="#ct-logo" />
+                </svg>
+            </div>
+        </div>
+    </div>
+    <section role="region" class="container workPlus__section">
+        <div class="row flex-between flex-middle">
+            <div class="col-12">
+                <div class="animation-element slideInUp">
+                    <p class="fs-16 fw-500 c-light-gray pb-12">Introducing</p>
+                    <!-- <svg aria-labelledby="workplusLogo" role="img" width="228" height="68">
+                        <title id="svgWorkplus">Work+</title>
+                        <use xlink:href="#work_plus_logo" />
+                    </svg> -->
+                    <img src="/images/work_plus/work_plus_logo.svg" alt="workplus" height="50" />
+                    <h2 class="fs-40 fw-700 c-black lh-title pt-32 animation-element">A better way to <br />
+                        travel for work</h2>
+                    <p class="fs-20 fw-500 c-gray lh-title pt-24">
+                        Every time you book a flight on Cleartrip <br /> with your GSTIN, you have access to <br />
+                        exclusive benefits.
+                    </p>
+                    <hr class="bg-light-yellow workplus__hr animation-element animatedWidth" />
+                </div>
+            </div>
+            <div class="col-12">
+                <div style="position: relative">
+                    <div class="workplus__section--box ta-c pt-32 pb-32 ">
+                        <p class="fw-500 c-light-gray lh-solid fs-16 ">Why settle for less?</p>
+                        <p class="fw-600 c-black lh-title fs-24 ">Get more with work<sup class="fw-600">+</sup>
+                        </p>
+                        <div class="flex flex-column pt-40 w-50p" style="margin-left: auto">
+                            <div class="flex flex-row flex-middle ">
+                                <svg aria-labelledby="workplusicons" role="img" width="40" height="40" fill="#36c">
+                                    <title id="svgWorkplus">Amendment</title>
+                                    <use xlink:href="#amendments" />
+                                </svg>
+                                <p class="fs-16 fw-500 c-dark-gray lh-title ta-l pl-12">Free <br /> Amendments</p>
+                            </div>
+                            <div class="flex flex-row flex-middle pt-24 ">
+                                <svg aria-labelledby="workplusicons" role="img" width="40" height="40" fill="#36c">
+                                    <title id="svgWorkplus">Amendment</title>
+                                    <use xlink:href="#meals" />
+                                </svg>
+                                <p class="fs-16 fw-500 c-dark-gray lh-title ta-l pl-12">Complimentary <br /> meals</p>
+                            </div>
+                            <div class="flex flex-row  flex-middle pt-24 ">
+                                <svg aria-labelledby="workplusicons" role="img" width="40" height="40" fill="#36c">
+                                    <title id="svgWorkplus">Amendment</title>
+                                    <use xlink:href="#cashback" />
+                                </svg>
+                                <p class="fs-16 fw-500 c-dark-gray lh-title ta-l pl-12">Guaranteed <br /> cashback</p>
+                            </div>
+                            <p class="feltThat fs-32 c-light-gray lh-title pt-16 ta-l ">and more!</p>
+                        </div>
+                        <div class="pt-24 flex flex-center">
+                            <button role="button" type="button"
+                                class="bg-orange lh-title c-white workPlus__button">
+                                Get started
+                            </button>
+                        </div>
+                    </div>
+                    <div class="workplus__section--box__shadow"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section role="region" class="p-relative workPlus__section workPlus__section--fares">
+        <img src="/images/work_plus/flight_curved.svg" width="678px" class="workPlus__section--bgImg workPlus__section--bgImg__fares p-absolute l-0 b-0" />
+        <div class="container">
+            <div class="row flex-between flex-middle">
+                <div class="col-12 w-50p flex flex-center workPlus__img--lens__wrapper">
+                    <img class="workPlus__img--mob" src="/images/work_plus/mobile_image.png" height="525" width="262"
+                        alt="mobile image" />
+                    <img class="workPlus__img--lens animation-element punch" src="/images/work_plus/lens.png" alt="lens" height="225" />
+                </div>
+                <div class="col-12 animation-element slideInUp" style="padding-left: 100px;">
+                    <h2 class="fs-40 fw-700 c-black lh-title animation-element">Unlock unlimited Work<sup class="fw-700">+</sup>
+                        fares</h2>
+                    <p class="fs-20 fw-500 c-gray lh-title pt-24 animation-element">
+                        Enjoy trial access of up to 3 bookings,without any GST documentation.
+                        Access unlimited bookings after successful verification.
+                    </p>
+                    <hr class="bg-light-yellow workplus__hr animation-element animatedWidth" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <section role="region" class="workPlus__section workPlus__section--inclusions p-relative">
+        <img src="/images/work_plus/quotes.svg" class="workPlus__section--bgImg workPlus__section--bgImg__inclusions p-absolute r-0" />
+        <div class="container">
+            <div class="row flex-between flex-middle">
+                <div class="col-12 animation-element slideInUp">
+                    <h2 class="fs-40 fw-700 c-black lh-title">Preferential <br /> Perks</h2>
+                    <p class="fs-20 fw-500 c-gray lh-title pt-24">
+                        Free flight amendments, complimentary meals on-board,
+                        and reduced cancellation fees are all included in your Work+ fare.
+                    </p>
+                    <hr class="bg-light-yellow workplus__hr animation-element animatedWidth" />
+                </div>
+                <div class="col-12 w-50p flex flex-left flex-bottom workPlus__inc--card__wrapper">
+                    <img class="workPlus__inc--card animation-element diagonal-right" src="/images/work_plus/fare_card_withinc.svg" height="237"
+                        width="280" alt="inclusions card" />
+                    <img class="workPlus__inc--cardNill animation-element diagonal-left" src="/images/work_plus/fara_card_withoutinc.svg" height="237"
+                        width="280" alt="inclusions card nill" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <section role="region" class="workPlus__section workPlus__section--addons">
+        <div class="container">
+            <div class="row">
+                <div class="col w-100p  flex flex-column flex-middle flex-center animation-element slideInUp">
+                    <div class="flex flex-middle" style="padding-left: 120px">
+                        <h2 class="fs-40 fw-700 c-black lh-title pr-20">Add-ons</h2>
+                        <img src="/images/work_plus/workplus_badge.png" alt="badge work+" class="animation-element punch" width="80" height="80" />
+                    </div>
+                    <p class="fs-20 fw-500 c-gray lh-title ta-c">
+                        Work+ comes with additional features, <br />Become a member and avail these.
+                    </p>
+                </div>
+            </div>
+            <div class="row pt-68 flex-around">
+                <div class="col-8 flex flex-middle flex-column">
+                    <img src="/images/work_plus/cashback.svg" alt="cashback icon" height="120" width="120" />
+                    <p class="fs-20 fw-600 lh-title ta-c c-black pt-48">
+                        Upto ₹ 500 <br />
+                        cashback
+                    </p>
+                    <p class="fs-20 fw-500 c-gray lh-title pt-16 ta-c">
+                        Money on your wallet with <br />
+                        every booking
+                    </p>
+                </div>
+                <div class="col-8 flex flex-middle flex-column">
+                    <img src="/images/work_plus/report.svg" alt="cashback icon" height="120" width="120" />
+                    <p class="fs-20 fw-600 lh-title ta-c c-black pt-48">
+                        Download <br />
+                        travel reports
+                    </p>
+                    <p class="fs-20 fw-500 c-gray lh-title pt-16 ta-c">
+                        Get a clear view into all your <br /> travel activity
+                    </p>
+                </div>
+                <div class="col-8 flex flex-middle flex-column">
+                    <img src="/images/work_plus/travel_offers.svg" alt="cashback icon" height="120" width="120" />
+                    <p class="fs-20 fw-600 lh-title ta-c c-black pt-48">
+                        Exclusive <br />
+                        travel offers
+                    </p>
+                    <p class="fs-20 fw-500 c-gray lh-title pt-16 ta-c">
+                        Say goodbye to travelling with <br /> zero benefits
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section role="region" class="workPlus__section workPlus__section--faq">
+        <div class="container">
+            <div class="row">
+                <h2 class="col fs-40 fw-700 c-black lh-title pr-20">FAQ</h2>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="pt-40">
+                        <h3 class="fs-20 c-black lh-title fw-500">What is work<sup class="fw-500">+</sup>?</h3>
+                        <p class="fs-18 c-gray lh-copy pt-16 fw-500">
+                            Cleartrip One is an invite-only loyalty program and first of its kind in the Indian travel
+                            industry. Along with benefits
+                            which frequent fliers will love, every flight or hotel booked on Cleartrip desktop, mobile
+                            website, Android or iOS apps,
+                            earns you points with your favourite loyalty program.
+                        </p>
+                        <h3 class="fs-20 c-black lh-title fw-500 pt-24">How many points does each booking earn?</h3>
+                        <p class="fs-18 c-gray lh-copy pt-16 fw-500 ">
+                            You earn approximately 10% for a hotel booking and about 4% for a flight booking. Points are
+                            calculated against the
+                            total booking amount, and will be credited your loyalty program partner of choice.
+                        </p>
+                        <h3 class="fs-20 c-black lh-title fw-500 pt-24 ">How many points need to be accrued before
+                            qualifying for redemption?</h3>
+                        <p class="fs-18 c-gray lh-copy pt-16 fw-500">
+                            All our partners mandate a minimum of 500 points before qualifying for redemption. Vistara
+                            need a minimum of 1000.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="pt-40 pl-32">
+                        <h3 class="fs-20 c-black lh-title fw-500">What are the cancellation benefits available in the
+                            program? And how does it work?</h3>
+                        <ul>
+                            <li>
+                                <p class="fs-18 c-gray lh-copy pt-16 fw-500">
+                                    For every 3 flight journeys (for each passenger oneway is 1 and round-trip is 2
+                                    journeys) you earn one
+                                    cancellation
+                                    credit for a single flight journey. Eg: If you book a Round-trip for 3 passengers,
+                                    that’s 6 journeys which
+                                    will earn you
+                                    2 cancellation credits. If you book One-way for 3 passengers, that’s 3 journeys
+                                    which will earn you 1
+                                    cancellation
+                                    credit.
+                                </p>
+                            </li>
+                            <li>
+                                <p class="fs-18 c-gray lh-copy pt-16 fw-500">
+                                    A cancellation credit is equivalent to Airline + Cleartrip Cancellation charges.
+                                    This amount is credited
+                                    back into
+                                    your wallet after the cancellation. For example: You book a Mumbai-Delhi round-trip
+                                    for 2 passengers, you
+                                    earn 1
+                                    cancellation credit.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="flex bg-blue pt-12 pb-12 flex-middle flex-center workPlus__banner rellax animation-element">
+        <p class="fs-20 fw-500 lh-title c-white pr-24">Have a GSTIN? You are invited</p>
+        <button role="button" type="button" class="bg-orange lh-title c-white workPlus__button">Get
+            started</button>
+    </div>
+    <div class="flex bg-light-gray pt-16 pb-16 flex-middle flex-center">
+        <p class="fs-16 lh-title c-gray">2006 - 2019 Cleartrip Pvt. Ltd.&nbsp;Made with love&nbsp;</p>
+        <svg aria-labelledby="workplusicons" role="img" width="21" height="24" fill="#36c">
+            <title id="svgWorkplus">Heart</title>
+            <use xlink:href="#heart" />
+        </svg>
+    </div>
+
+
+<script type="text/javascript" src="./js/animate.js"></script>
+</body>
+
+</html>

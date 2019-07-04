@@ -1,0 +1,133 @@
+<html lang="en" class="nonIE serveDesktop">
+<!--[if IE 7]><html class="ie ie7 ltie9 ltie8 ltie10 serveDesktop" lang="en"> <![endif]-->
+<!--[if IE 8]><html class="ie ie8 ltie9 ltie10 serveDesktop" lang="en"> <![endif]-->
+<!--[if IE 9]><html class="ie ie9 ltie10 serveDesktop" lang="en"> <![endif]-->
+<!--[if IE 10]><html class="ie ie10 serveDesktop"><![endif]-->
+<!--[if !IE]><!-->
+<!--<![endif]-->
+
+<head>
+    <!--  in  -->
+    <title>Cleartrip Work+</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+
+    <meta property="og:title" content="Cleartrip WorkPlus">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:url" content="http://www.cleartrip.com/WorkPlus">
+    <meta property="og:site_name" content="Cleartrip">
+
+    <link type="text/css" rel="stylesheet" href="/styles/m-work-plus.css">
+    <script src="//code.jquery.com/jquery-1.7.1.min.js"></script>
+    <!-- <script src="//ui.cltpstatic.com/landing-page-resources/rewards/js/bjqs-1.3.min.js"></script> -->
+</head>
+
+<body class="bg-light-gray">
+    <!--#include virtual="/svg/sprites/icons/work_plus.shtml" -->
+    <form name="workPlus__user__form" class="workPlus__form">
+        <div style="min-height: calc(100vh - 80px)" class="pb-32">
+            <section class="workPlus__form--section" role="form region">
+                <p class="pt-20 pb-8 pl-16 fs-12 c-gray workPlus__form--sectionTitle">YOUR DETAILS</p>
+                <div class="workPlus__form--inputGroup flex bg-white flex-middle pl-16 pr-16">
+                    <label class="workPlus__form--inputLabel c-light-gray fs-16 lh-copy">Title</label>
+                    <div class="flex flex-middle flex-between flex-1">
+                        <select class="flex-1 workPlus__form--input bg-white workPlus__form--select fs-16 c-black lh-title" name="mobile code">
+                            <option>Mr</option>
+                            <option>Mrs</option>
+                            <option>Mrs</option>
+                        </select>
+                        <svg aria-labelledby="workplusicons" width="8" height="13" fill="#999" role="img">
+                            <title id="svgWorkplus">Expand</title>
+                            <use xlink:href="#expand" />
+                        </svg>
+                    </div>
+                    
+                </div>
+                <div class="workPlus__form--inputGroup flex bg-white flex-middle pl-16 pr-16">
+                    <label class="workPlus__form--inputLabel c-light-gray fs-16 lh-copy">First name</label>
+                    <input class="workPlus__form--input fs-16 c-black lh-title flex-1" name="first_name" type="text"
+                        placeholder="">
+                </div>
+                <div class="workPlus__form--inputGroup flex bg-white flex-middle pl-16 pr-16">
+                    <label class="workPlus__form--inputLabel c-light-gray fs-16 lh-copy">Last name</label>
+                    <input class="workPlus__form--input fs-16 c-black lh-title flex-1" name="last_name" type="text"
+                        placeholder="">
+                </div>
+                <div class="workPlus__form--inputGroup flex bg-white flex-middle pl-16 pr-16">
+                    <label class="workPlus__form--inputLabel c-light-gray fs-16 lh-copy">Email id</label>
+                    <input class="workPlus__form--input fs-16 c-black lh-title flex-1" name="email" type="email"
+                        placeholder="" value="nabeel.thurakkal@cleartrip.com">
+                </div>
+                <div class="workPlus__form--inputGroup flex bg-white flex-middle pl-16 pr-16">
+                    <label class="workPlus__form--inputLabel c-light-gray fs-16 lh-copy">Mobile</label>
+                    <input class="workPlus__form--input fs-16 c-black lh-title flex-1" name="mobile" type="text"
+                        placeholder="">
+                </div>
+                <div class="workPlus__form--inputGroup flex bg-white flex-middle pl-16 pr-16">
+                    <label class="workPlus__form--inputLabel c-light-gray fs-16 lh-copy">Password</label>
+                    <div class="flex flex-middle flex-between flex-1">
+                        <input class="workPlus__form--input fs-16 c-black lh-title flex-1" name="password" type="password" placeholder=""
+                            value="asdasd">
+                        <svg aria-labelledby="workplusicons" width="22" height="15" fill="#999" role="img" id="show_password">
+                            <title id="svgWorkplus">eye</title>
+                            <use xlink:href="#eye" />
+                        </svg>
+                    </div>
+                </div>
+            </section>
+            <section class="flex flex-start bg-lighter-gray flex-middle workPlus__form--sectionError pl-16 pr-16 pt-12 pb-12">
+                <svg aria-labelledby="workplusicons" width="20" height="20" fill="#CE3434" role="img" id="show_password">
+                    <title id="svgWorkplus">info</title>
+                    <use xlink:href="#info" />
+                </svg>
+                <p class="lh-copy fs-16 c-red pl-12 ">All fields are required</p>
+            </section>
+            <section class="workPlus__form--section" role="form region">
+                <p class="pt-20 pb-8 pl-16 fs-12 c-gray workPlus__form--sectionTitle">COMPANY DETAILS</p>
+                <div class="workPlus__form--inputGroup flex bg-white flex-middle pl-16 pr-16">
+                    <label class="workPlus__form--inputLabel c-light-gray fs-16 lh-copy">Company</label>
+                    <input class="workPlus__form--input fs-16 c-black lh-title flex-1" name="companyName" type="text"
+                        placeholder="" value="">
+                </div>
+                <div class="workPlus__form--inputGroup flex bg-white flex-middle pl-16 pr-16">
+                    <label class="workPlus__form--inputLabel c-light-gray fs-16 lh-copy">GSTIN</label>
+                    <input class="workPlus__form--input fs-16 c-black lh-title flex-1" name="GSTIN" type="text"
+                        placeholder="" value="ABCD1235">
+                </div>
+            </section>
+            <section class="flex flex-start flex-middle bg-lighter-gray workPlus__form--sectionError pl-16 pr-16 pt-12 pb-12">
+                <svg aria-labelledby="workplusicons" width="20" height="20" fill="#CE3434" role="img" id="show_password">
+                    <title id="svgWorkplus">info</title>
+                    <use xlink:href="#info" />
+                </svg>
+                <p class="lh-copy fs-16 c-red pl-12 ">Enter GSTIN Number</p>
+            </section>
+        </div>
+        <div class="bg-white pt-16 pb-16 pl-16 pr-16 flex flex-center p-sticky w-100p bs-border b-0 workPlus__button--wrapper">
+            <button class=" flex-1 bg-blue workPlus__button">Activate account</button>
+        </div>
+    </form>
+</body>
+
+<script type="text/javascript">
+    $(function(){
+        $( "#show_password" ).toggle(function() {
+            $(this).css("fill","#36c");
+            $(this).prev().get(0).type = 'text';
+        }, function() {
+            $(this).css("fill","#999");
+            $(this).prev().get(0).type = 'password';
+        });
+        
+        $("input[type='password']").on("keyup",function(){
+            if($(this).val()) {
+                $("#show_password").attr("class","");
+            }
+            else {
+                $("#show_password").attr("class","hide");
+            }
+        })
+    })
+</script>
+
+</html>
